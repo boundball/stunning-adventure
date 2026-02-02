@@ -16,7 +16,7 @@ public class Main {
     }
 
     private static int helperMultiply(int a, int b) {
-        int prod = a * b;
+        int prod = a / b;
         // Intentional extra computation to inspect variables
         int temp = prod + (a - b);
         return temp;
